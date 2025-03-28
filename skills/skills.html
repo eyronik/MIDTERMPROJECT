@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills</title>
+  <link rel="stylesheet" href="skills.css" />
+  <style>
+    /* Optional styles to enhance the page */
+    .go-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .go-top:hover {
+      background-color: #45a049;
+    }
+    .clickable-image img {
+      width: 150px;
+      height: auto;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .clickable-image img:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <li><a href="../landing/landing.html">Home</a></li>
+            <li><a href="../bio/bio.html">Biography</a></li>
+            <li><a href="../skills/skills.html">Skills</a></li>
+            <li><a href="../gallery/gallery.html">Gallery</a></li>
+            <li><a href="../my-beat/my-beat.html">Music</a></li>
+            <li><a href="../my-kind-of-film/my-kind-of-film.html">Movies & Series</a></li>
+            <li><a href="../resume/resume.html">Resume</a></li>
+            <li><a href="../bucket-list/bucket-list.html">Bucket List</a></li>
+            <li><a href="../dream-places/dream-places.html">Dream Places to Visit</a></li>
+  </nav>
+
+  <h1>My Skills</h1>
+
+  <section class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Programming: HTML, CSS, Java, R</li>
+      <li>Database Management: SQL, MySQL</li>
+      <li>Statistical Analysis</li>
+      <li>Data Visualization</li>
+    </ul>
+
+    <h2>Soft Skills</h2>
+    <ul>
+      <li>Critical Thinking</li>
+      <li>Problem Solving</li>
+      <li>Time Management</li>
+      <li>Collaboration</li>
+    </ul>
+  </section>
+
+  <section class="clickable-images">
+    <h2>My Interests/Hobbies</h2>
+    <div class="clickable-image">
+      <a href="../gallery/gallery.html">
+        <img src="../pics/hiphop.jpg" alt="Music" />
+      </a>
+      <a href="../my-kind-of-film/my-kind-of-film.html">
+        <img src="../pics/watchingmovie.jpg" alt="Movies & Series" />
+      </a>
+      <a href="../bio/bio.html">
+        <img src="../pics/reading.jpg" alt="Reading" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Back to Home Link -->
+  <div class="back-home">
+    <a href="../landing/landing.html">⬅ Back to Home</a>
+  </div>
+
+  <!-- Go Top Link -->
+  <a href="#" class="go-top">Go Top</a>
+</body>
+</html>

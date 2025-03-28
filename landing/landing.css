@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee; /* Updated background color */
+    text-align: center;
+    color: #222; /* Adjusted text color */
+}
+
+.navbar {
+    background-color: #333; /* Updated navbar color */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+h1 {
+    color: #444; /* Updated header color */
+    margin-top: 30px;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.landing-video {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bio-images img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #444; /* Updated border color */
+}
