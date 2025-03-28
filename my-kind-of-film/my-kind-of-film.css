@@ -1,0 +1,114 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee; /* Updated background color */
+    text-align: center;
+    color: #222; /* Updated text color */
+}
+
+/* ✅ Navigation Bar */
+.navbar {
+    background-color: #333; /* Updated navbar background */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: #ffffff; /* Updated navbar text color */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🔹 Blue Hover Effect */
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #6e8efb; /* Blue hover effect */
+    transform: scale(1.1);
+}
+
+/* ✅ Page Title */
+h1 {
+    color: #444; /* Updated header color */
+    margin-top: 30px;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Video Section */
+.video-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-gallery h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #444; /* Updated section header color */
+    text-transform: uppercase;
+}
+
+/* ✅ Video Container (Card Style) */
+.video-container {
+    background: white;
+    width: 420px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* 🔹 Blue Hover Effect */
+.video-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(110, 142, 251, 0.4); /* Blue glow effect */
+}
+
+.video-container p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222; /* Updated text color */
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Back Button */
+.back-home {
+    margin-top: 30px;
+}
+
+.back-home a {
+    background-color: #333; /* Updated button background */
+    color: #ffffff; /* Updated button text color */
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* 🔹 Blue Hover Effect */
+.back-home a:hover {
+    background-color: #6e8efb; /* Blue hover effect */
+    color: white;
+    transform: scale(1.1);
+}
