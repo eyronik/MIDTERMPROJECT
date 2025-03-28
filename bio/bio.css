@@ -1,0 +1,64 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #6e8efb; /* 🔹 Blue hover effect */
+}
+
+/* Page Title */
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Landing Video */
+.landing-video {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling - All images same size */
+img {
+    width: 150px; /* Set a uniform width */
+    height: 150px; /* Set a uniform height */
+    object-fit: cover; /* Ensures images fit without distortion */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+/* Paragraph Shadowbox Design */
+p {
+    background-color: white; /* Set background color to white */
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 800px; /* Limit paragraph width */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Apply shadow effect */
+    line-height: 1.6;
+}
